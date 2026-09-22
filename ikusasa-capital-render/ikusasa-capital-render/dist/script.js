@@ -114,7 +114,7 @@
       'Regards,',
       name
     ].filter((line, index, lines) => line !== '' || lines[index - 1] !== '').join('\n');
-    window.location.href = `mailto:hello@ikusasacapital.co.za?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(copy)}`;
+    window.location.href = `mailto:ntandostb@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(copy)}`;
   });
 
   const revealObserver = new IntersectionObserver(entries => {
